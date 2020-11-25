@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main_body{
+	/* background: #a5a5a5; */
+}
+
+.main_container {
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+
+/* this is the header part of this page */
+header {
+	width: 100%;
+	border-bottom: 1px solid grey;
+}
+
+#brand_logo {
+	width: 140px;
+}
+
+#header_nav {
+	display: inline;
+	float: right;
+	margin-top: 14px;
+}
+
+#header_nav span {
+	padding-left: 10px;
+	
+}
+
+
+/* This section contains the side nav and slide image display */
+#cat_slide_wrapper {
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+	display: flex;
+}
+
+#all_cat {
+	width: 25%;
+	padding: 5px;
+	box-shadow: 1px 1px 5px #e5e5e5;
+	/* background: red; */
+}
+#all_cat nav {
+	display: flex;
+	flex-direction: column;   
+}
+#all_cat nav span {
+	margin-top: 10px;
+}
+
+#slide_image_wrapper {
+	width: 75%;
+	background: #fce4ec;
+}
+
+#myCarousel {
+	height: 100%;
+}
+
+
+.slide_image {
+	width: 200px;
+	height: auto;
+}
+
+
+
+/* Exclusive Products */
+#exclusive_products {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+#exclusive_products_nav span{
+	padding-left: 20px;	
+}
